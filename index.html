@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript First Assignment</title>
+  <link rel="icon" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body class="min-vh-100">
+  <div class="sheet rounded-3">
+    <div class="container">
+      <div class="header">
+        <h2 class="text-center text-white mt-3">JavaScript</h2>
+        <h2 class="text-center text-white mt-1">First Assignment</h2>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-10 m-auto">
+          <!-- Problem 1 -->
+          <div class="manga problem1 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allow to user enter number then print it.
+              <br><br>
+              <span id="epsilon" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test1" onclick="fun1()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 2 -->
+          <div class="manga problem2 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that take number from user then print yes if
+              that number can divide by 3 and 4 otherwise print no.
+              <br><br>
+              <span id="demo" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test2" onclick="fun2()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 3 -->
+          <div class="manga problem3 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allows the user to insert 2 integers then
+              print the max.
+              <br><br>
+              <span id="beta" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test3" onclick="fun3()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 4 -->
+          <div class="manga problem4 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allows the user to insert an integer then
+              print negative if it is negative number otherwise print
+              positive.
+              <br><br>
+              <span id="gamma" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test4" onclick="fun4()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 5 -->
+          <div class="manga problem5 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that take 3 integers from user then print the
+              max element and the min element.
+              <br><br>
+              <span id="fun51" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun52" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test5" onclick="fun5()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 6 -->
+          <div class="manga problem6 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allows the user to insert integer number
+              then check If a number is oven or odd.
+              <br><br>
+              <span id="fun6" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test6" onclick="fun6()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 7 -->
+          <div class="manga problem7 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that take character from user then if it is
+              vowel chars (a,e,I,o,u) then print vowel otherwise print
+              consonant.
+              <br><br>
+              <span id="fun7" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test7" onclick="fun7()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 8 -->
+          <div class="manga problem8 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allows user to insert integer then print
+              all numbers between 1 to that’s number.
+              <br><br>
+              <span id="fun8" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test8" onclick="fun8()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 9 -->
+          <div class="manga problem9 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allows user to insert integer then print a
+              multiplication table up to 12.
+              <br><br>
+              <span id="fun9" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test9" onclick="fun9()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 10 -->
+          <div class="manga problem10 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that allows to user to insert number then print
+              all even numbers between 1 to this number.
+              <br><br>
+              <span id="fun10" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test10" onclick="fun10()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 11 -->
+          <div class="manga problem11 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program that take two integers then print the power.
+              <br><br>
+              <span id="fun11" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test11" onclick="fun11()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 12 -->
+          <div class="manga problem12 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to enter marks of five subjects and calculate
+              total, average and percentage.
+              <br><br>
+              <span id="fun121" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun122" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun123" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test12" onclick="fun12()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 13 -->
+          <div class="manga problem13 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to input month number and print number of days
+              in that month.
+              <br><br>
+              <span id="fun13" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test13" onclick="fun13()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 14 -->
+          <div class="manga problem14 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to input marks of five subjects Physics,
+              Chemistry, Biology, Mathematics and Computer, Find percentage
+              and grade.
+              <br><br>
+              <span id="fun141" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun142" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun143" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun144" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+              <span id="fun145" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test14" onclick="fun14()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 15 -->
+          <div class="manga problem15 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to print total number of days in month, use
+              switch.
+              <br><br>
+              <span id="fun15" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test15" onclick="fun15()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 16 -->
+          <div class="manga problem16 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to check whether an alphabet is vowel or
+              consonant, use switch.
+              <br><br>
+              <span id="fun16" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test16" onclick="fun16()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 17 -->
+          <div class="manga problem17 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to find maximum between two numbers, use switch.
+              <br><br>
+              <span id="fun17" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test17" onclick="fun17()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 18 -->
+          <div class="manga problem18 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to check whether a number is even or odd, use
+              switch.
+              <br><br>
+              <span id="fun18" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test18" onclick="fun18()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 19 -->
+          <div class="manga problem19 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to check whether a number is positive or
+              negative or zero, use switch.
+              <br><br>
+              <span id="fun19" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test19" onclick="fun19()">Test</button>
+          </div>
+          <hr />
+          <!-- Problem 20 -->
+          <div class="manga problem20 mt-3 d-flex align-items-center justify-content-between">
+            <p class="lead text-white">
+              Write a program to create Simple Calculator, use switch.
+              <br><br>
+              <span id="fun20" class="text-warning d-flex align-items-center justify-content-evenly"></span>
+            </p>
+            <button class="btn btn-outline-warning px-4" id="test20" onclick="fun20()">Test</button>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
